@@ -1,0 +1,56 @@
+.postjobform {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.formcontainer,
+.formsubmit {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 400px;
+  height: 50px;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+.formsubmit > button {
+  margin-top: 1rem;
+  background: #3041c4;
+  border: 1px solid #3041c4;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.34;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+}
+.createpostcontainer {
+  margin-top: 1rem;
+}
+
+.formsubmit > button:hover {
+  background: #000000;
+  color: #fff;
+}
+
+@media only screen and (max-width: 351px) {
+  body {
+    width: 100vw;
+    height: 100vw;
+  }
+
+  input {
+    padding: 0%;
+    width: 200px;
+    height: 50px;
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+}
